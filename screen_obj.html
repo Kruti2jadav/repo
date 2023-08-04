@@ -1,0 +1,25 @@
+ 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Window Object</h2>
+
+<p id="demo"></p>
+<input type="submit" onclick="clk()" value="Click me!"> 
+<script>
+function clk()
+{
+    
+document.getElementById("demo").innerHTML =
+"<h1>Screen width: " + screen.width + "px<br>" +
+"Screen height: " + screen.height + "px<br>" + "Screen avail height: " + screen.availHeight + "px<br>" + "Screen avail width: " + screen.availWidth + "px<br>" + "Color Depth : " + screen.colorDepth +  "<br>" + "pixel Depth : " + screen.pixelDepth + "</h1>";
+} 
+var a = new Date();
+document.writeln(a);
+document.writeln(a.getFullYear());
+
+</script>
+
+</body>
+</html>
